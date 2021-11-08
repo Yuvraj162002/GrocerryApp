@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="7dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="5dp"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#DFFFD1"
+       >
+
+        <ImageView
+            android:id="@+id/img_cat"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/new_category_text"
+            android:src="@drawable/eggs"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alice"
+                android:text="Name is here"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desp_cat"
+                android:layout_width="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alice"
+                android:text="Description is here"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/disc_cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alice"
+                android:text="Discount"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/off_cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alice"
+                android:text="10 %OFF"
+                android:textColor="@color/neon_green"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/side_arrow_cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/side_wala_arrow"
+                android:layout_gravity="end"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

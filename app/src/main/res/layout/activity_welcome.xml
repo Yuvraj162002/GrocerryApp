@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.WelcomeActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Grocery Store App"
+        android:textColor="@color/neon_green"
+        android:textSize="27dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore Us"
+        android:textColor="@color/neon_green"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview" />
+
+    <ImageView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_height="300dp"
+        android:src="@drawable/welcome"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="142dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView2" />
+
+    <ImageView
+        android:id="@+id/loginwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/loginwelcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/welcome" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="160dp"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/loginwelcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loginwelcome"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/registrationwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/registrationwelcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loginwelcome" />
+
+    <TextView
+        android:id="@+id/regis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="76dp"
+        android:text="Registration"
+        android:textColor="@color/black"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/registrationwelcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/registrationwelcome"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="38dp"
+        android:layout_marginTop="68dp"
+        android:padding="8dp"
+        android:text="We Are Happy To Have You! Get Ready To Buy Fresh And Freeze Grocery,And Anything You Want"
+        android:textColor="@color/neon_green"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/registrationwelcome" />
+
+    <ProgressBar
+        android:id="@+id/progressbarwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="181dp"
+       app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        tools:layout_editor_absoluteY="610dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

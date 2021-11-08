@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Grocerry App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="profile">Profile</string>
+    <string name="category">Category</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="offers">Offers</string>
+    <string name="new_product">New Product</string>
+    <string name="my_orders">My Orders</string>
+
+    <string name="my_carts">My Carts</string>
+
+    <string name="new_products">New Products</string>
+    <string name="description">
+<!--        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.-->
+    </string>
+    <string name="lorem_ipsum_dolor_sit_amet_the_graphic_and_typographic_operators_know_this_well_in_reality_all_the_professions_dealing_with_the_universe_of_communication_have_a_stable_relationship_with_these_words_but_what_is_it_lorem_ipsum_is_a_dummy_text_without_any_sense">Lorem ipsum dolor sit amet . The graphic and typographic operators know this well, in reality all the professions dealing with the universe of communication have a stable relationship with these words, but what is it? Lorem ipsum is a dummy text without any sense.</string>
+
+
+</resources>
