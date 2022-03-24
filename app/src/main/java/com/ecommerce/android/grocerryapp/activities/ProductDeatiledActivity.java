@@ -79,21 +79,15 @@ public class ProductDeatiledActivity extends AppCompatActivity {
             desp.setText(allProductsModel.getDesp());
             price.setText("Price :$"+allProductsModel.getPrice()+"/kg");
 
-//            try {
+
                 totalprice =  Integer.valueOf(allProductsModel.getPrice()) *  qty;
-//            }
-//           catch (NumberFormatException ex){
-//                System.out.println("Their is an exception");
-//           }
+
 
             if (allProductsModel.getType().equals("eggs")){
                 price.setText("Price :$"+allProductsModel.getPrice()+"/dozen");
                 totalprice =Integer.parseInt(allProductsModel.getPrice()) *  qty;
             }
-           // if (allProductsModel.getType().equals("milk")){
-             //   price.setText("Price :$"+allProductsModel.getPrice()+"/litre");
-               // totalprice = Integer.parseInt(allProductsModel.getPrice()) *  qty;
-           // }
+
 
         }
         addtocart = findViewById(R.id.add_to_cart);
@@ -114,6 +108,8 @@ public class ProductDeatiledActivity extends AppCompatActivity {
                        quantity.setText("" + qty);
                        totalprice =Integer.parseInt( allProductsModel.getPrice()) *  qty;
 
+//                   Toast.makeText(ProductDeatiledActivity.this, "youoihdisdshd", Toast.LENGTH_SHORT).show();
+
                    }
 
                }
@@ -125,14 +121,6 @@ public class ProductDeatiledActivity extends AppCompatActivity {
                    if (qty < 10) {
                        qty++;
                        quantity.setText("" + qty);
-
-                       try {
-                           totalprice  =  Integer.valueOf( allProductsModel.getPrice()) * qty;
-                       }
-                       catch (NumberFormatException e){
-                           System.out.println("yoYo exception aagya h bhaisabh");
-                       }
-
 
 
                    }

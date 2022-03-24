@@ -17,7 +17,7 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/drawable/side_arrow.xml" value="0.178125" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/drawable/side_nav_bar.xml" value="0.178125" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/drawable/side_wala_arrow.xml" value="0.178125" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/activity_login.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/activity_login.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/activity_main.xml" value="0.10144927536231885" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/activity_placed_order.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/activity_product_deatiled.xml" value="0.16666666666666666" />
@@ -26,7 +26,7 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/activity_view_all.xml" value="0.15625" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/activity_welcome.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/app_bar_main.xml" value="0.10144927536231885" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/content_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/content_main.xml" value="0.22" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/explorer_category.xml" value="0.22" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/fragment_category.xml" value="0.16032608695652173" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/fragment_gallery.xml" value="0.16197916666666667" />
@@ -41,7 +41,7 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/nav_category_items.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/nav_header_main.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/nav_second_category.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/popular_products.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/popular_products.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/recommeded_item.xml" value="0.16032608695652173" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/layout/view_product.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/GrocerryApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.16197916666666667" />
